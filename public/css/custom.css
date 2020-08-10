@@ -1,0 +1,26 @@
+.footer-sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    background-color: #0868AD;
+}
+
+.white-font-fixed {
+    color: white;
+}
+
+.link-fixed {
+    color: white;
+    font-weight: 100;
+}
+
+.link-fixed:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.container-padding {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
