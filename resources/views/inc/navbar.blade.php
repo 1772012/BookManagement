@@ -13,15 +13,10 @@
                 <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/book">Book Management</a>
+                <a class="nav-link" href="/books">Book Management</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/category">Category Management</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav">
-            <li>
-                <a class="nav-link" href="#">Log Out</a>
+                <a class="nav-link" href="/categories">Category Management</a>
             </li>
         </ul>
     </div>

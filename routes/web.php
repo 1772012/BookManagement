@@ -19,3 +19,11 @@ Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/book', 'PagesController@book');
 Route::get('/category', 'PagesController@category');
+
+Route::resource('categories', 'CategoriesController');
+Route::resource('books', 'BooksController');
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index');
+
+Auth::routes();

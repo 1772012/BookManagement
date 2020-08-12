@@ -1,5 +1,6 @@
 .footer-sticky {
-    position: fixed;
+    position: sticky;
+
     bottom: 0;
     width: 100%;
     line-height: 60px;
@@ -21,6 +22,6 @@
 }
 
 .container-padding {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
