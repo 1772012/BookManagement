@@ -55,10 +55,10 @@
                                 <a class="nav-link" href="/about"><b>About</b></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/books"><b>Book Management</b></a>
+                                <a class="nav-link" href="/books"><b>Book</b></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/categories"><b>Category Management</b></a>
+                                <a class="nav-link" href="/categories"><b>Category</b></a>
                             </li>
                         </ul>
                     @endguest

@@ -9,7 +9,7 @@
             <hr>
             <h2>Avinash</h2>
             <hr>
-            <p>Gua tuh orangnya suka bahas agama sana sini jadi kadang kalo udah bahas itu pasti panjang lebar. Kadang suka
+            <p>Saya tuh orangnya suka bahas traveling sana sini jadi kadang kalo udah bahas itu pasti panjang lebar. Kadang suka
                 jailin orang biasanya jailin si Zaldy
             </p>
         </div>
@@ -20,7 +20,7 @@
             <hr>
             <h2>Zaldy Ignatius Auw</h2>
             <hr>
-            <p>Gua orangnya optimis ga suka basa basi. Kadang kalo ada masalah, gua bisa langsung cari solusi tapi beda
+            <p>Saya orangnya optimis. Kadang kalo ada masalah, saya bisa langsung cari solusi tapi beda
                 ceritanya kalo masalahnya pada saat ngoding wkwkwk</p>
         </div>
 
@@ -30,8 +30,8 @@
             <hr>
             <h2>Kafka Febianto Agiharta</h2>
             <hr>
-            <p>Gua ga suka banyak bacot kecuali udah dibacotin sama orang baru gua mulai. Gaya hidup yang sederhana aja,
-                simpel ga usah dibikin ribet sana sini</p>
+            <p>Saya ga suka banyak bicara kecuali udah diajak bicara sama orang baru saya mulai. Gaya hidup yang sederhana aja,
+                simpel ga usah dibikin ribet sana sini :D</p>
         </div>
     </div>
 

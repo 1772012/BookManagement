@@ -29,6 +29,7 @@
         <p>{{$book->description}}</p>
     </div>
 
+    @if ($authuser->role == 'admin')
     <div class="card p-3 mt-2 md-2">
         <div class="row">
             <div class="col">
@@ -44,6 +45,8 @@
             </div>
         </div>
     </div>
+    @endif
+
     
 
     

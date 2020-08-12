@@ -7,9 +7,11 @@
             <h1>Book List</h1>
         </div>
         <div class="col col-lg-2 float-right">
+            @if ($authuser->role == 'admin')
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addBookModal">
                 Add Book
             </button>
+            @endif
         </div>
     </div>
 
@@ -57,6 +59,7 @@
                             <small><b>Category : {{ $book->name }}</b></small>
                         </div>
                     </div>
+                    @if ($authuser->role == 'admin')
                     <div class="col-md-auto align-self-center">
                         <a href="books/{{ $book->id }}/edit" class="btn btn-secondary">Edit</a>
                         {!! Form::open(['action' => ['BooksController@destroy', $book->id], 'method' => 'POST', 'class' =>
@@ -65,6 +68,7 @@
                         {{ Form::submit('Delete', ['class' => 'btn btn-danger ml-2']) }}
                         {!! Form::close() !!}
                     </div>
+                    @endif
                 </div>
             </div>
         @endforeach

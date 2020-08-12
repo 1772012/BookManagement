@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Book;
 use App\Category;
+use App\User;
 use DB;
 
 class BooksController extends Controller
@@ -29,7 +30,10 @@ class BooksController extends Controller
         ->select('*')
         ->join('books', 'books.category_id', '=', 'categories.id')
         ->get();
-        return view('books.index', compact('select'))->with('books', $books);
+
+        $authuser = auth()->user();
+
+        return view('books.index', compact('select'))->with('books', $books)->with('authuser', $authuser);
 
         // $books = DB::table('books')
         // ->select('*')
@@ -107,7 +111,10 @@ class BooksController extends Controller
         ->where(['books.id' => $id])
         ->get();
         $book = $books[0];
-        return view('books.show')->with('book', $book);
+
+        $authuser = auth()->user();
+
+        return view('books.show')->with('book', $book)->with('authuser', $authuser);
     }
 
     /**

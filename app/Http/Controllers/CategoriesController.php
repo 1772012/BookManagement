@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Category;
+use App\User;
 use DB;
 
 class CategoriesController extends Controller
@@ -16,7 +17,8 @@ class CategoriesController extends Controller
     public function index()
     {
         $categories = Category::all();
-        return view('categories.index')->with('categories', $categories);
+        $authuser = auth()->user();
+        return view('categories.index', compact('authuser'))->with('categories', $categories);
     }
 
     /**
