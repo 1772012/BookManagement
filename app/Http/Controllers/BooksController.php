@@ -75,7 +75,7 @@ class BooksController extends Controller
             $fileNameWithExt = $request->file('doc_photo')->getClientOriginalName();
             $fileName = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
             $extension = $request->file('doc_photo')->getClientOriginalExtension();
-            $fileNameToStore = $fileName . '-' . time() . $extension;
+            $fileNameToStore = $fileName . '-' . time() . '.' . $extension;
             $path = $request->file('doc_photo')->storeAs('public/doc_photos', $fileNameToStore);
         } else {
             $fileNameToStore = 'noimage.jpg';
